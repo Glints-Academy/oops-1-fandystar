@@ -1,9 +1,8 @@
-
+// calss app
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("\n");
-        
-             
+                     
         // person
         Person ana = new Person("ana", "alamat bukit");
         System.out.println(ana.getData());
