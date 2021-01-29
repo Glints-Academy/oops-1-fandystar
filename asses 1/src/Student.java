@@ -1,18 +1,18 @@
 import java.util.ArrayList;
 
-class Student extends Person{
+public class Student extends Person{
     ArrayList<String> courses  = new ArrayList<String>();
     ArrayList<Integer> grades  = new ArrayList<Integer>();
     String course; 
     int grade ; 
     int numCourses;   
-    
+    //public int angka = 3;
     
     Student(String name,String address) {
         super(name,address);
       
     } 
-
+//
     void addCourseGrade(String course,int grade) {
         this.numCourses  =this.numCourses+1;
         this.course = course;
