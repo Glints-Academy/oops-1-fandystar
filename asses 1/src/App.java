@@ -3,11 +3,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("\n");
         
-        //test
-        //System.out.println();
-        
-        
-        
+             
         // person
         Person ana = new Person("ana", "alamat bukit");
         System.out.println(ana.getData());
